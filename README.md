@@ -20,7 +20,7 @@ ClickUp’s invite API is gated (Enterprise / SCIM). This project drives the **M
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR_USER/clickup-invite-cli.git
+git clone https://github.com/junemohan/clickup-invite-cli.git
 cd clickup-invite-cli
 npm install
 cp config.example.json config.json

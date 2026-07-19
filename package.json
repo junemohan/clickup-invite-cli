@@ -4,6 +4,14 @@
   "description": "Browser automation (Playwright) to invite ClickUp Workspace Members via Manage people — no gated invite API required",
   "type": "module",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junemohan/clickup-invite-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/junemohan/clickup-invite-cli/issues"
+  },
+  "homepage": "https://github.com/junemohan/clickup-invite-cli#readme",
   "keywords": [
     "clickup",
     "playwright",
