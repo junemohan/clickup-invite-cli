@@ -1,0 +1,11 @@
+node_modules/
+.clickup-profile/
+config.json
+debug/
+playwright-report/
+test-results/
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example

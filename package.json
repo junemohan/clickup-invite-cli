@@ -1,0 +1,26 @@
+{
+  "name": "clickup-invite-cli",
+  "version": "1.0.0",
+  "description": "Browser automation (Playwright) to invite ClickUp Workspace Members via Manage people — no gated invite API required",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "clickup",
+    "playwright",
+    "automation",
+    "invite",
+    "browser-automation"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "login": "node src/login.mjs",
+    "invite": "node src/invite.mjs",
+    "check-session": "node src/check-session.mjs",
+    "postinstall": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0"
+  }
+}
